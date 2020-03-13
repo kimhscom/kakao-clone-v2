@@ -1,7 +1,7 @@
 {
-  "name": "kakao-homework-4-25",
+  "name": "kakao-clone-v2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Kakao Clone Version 2.0",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
