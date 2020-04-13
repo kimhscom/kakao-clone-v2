@@ -1,52 +1,77 @@
 .nav {
-    position: fixed;
-    width: 100%;
-    background-color: #fcfcfc;
-    padding: 20px 50px;
-    left: 0px;
-    bottom: 0px;
-    border-top: 1px solid #f7f7f7;
+  position: fixed;
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 20px 50px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #f7f7f7;
 }
 
 .nav .nav__list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav i {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .nav .nav__list-link {
-    position: relative;
+  position: relative;
 }
 
 .nav .nav__badge {
-    position: absolute;
-    top: -7px;
-    right: -7px;
-    font-size: 10px;
-    color: white;
-    background-color: #dc5d46;
-    width: 18px;
-    height: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  font-size: 10px;
+  color: white;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.nav .nav__badge:hover {
+  animation: badgeTurn 3s infinite linear;
+}
+
+@keyframes badgeTurn {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: scale(1.5) rotate(1turn);
+    background-color: blue;
+  }
+  50% {
+    transform: scale(2) rotate(2turn);
+    background-color: green;
+  }
+  75% {
+    transform: scale(1.5) rotate(1turn);
+    background-color: blue;
+  }
+  100% {
+    transform: none;
+  }
 }
 
 @keyframes showNavBar {
-    from {
-        transform:  translateY(80px);
-    }
-    to {
-        transform: none;
-    }
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
 }
 
 .nav {
-    transform: translateY(80px);
-    animation: showNavBar 0.5s ease-out forwards;
-    animation-delay: 0.5s;
+  transform: translateY(80px);
+  animation: showNavBar 0.5s ease-out forwards;
+  animation-delay: 0.5s;
 }
