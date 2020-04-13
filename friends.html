@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Import Font Awesome-->
     <link
       rel="stylesheet"
@@ -11,125 +11,189 @@
       crossorigin="anonymous"
     />
     <!--Import styles.css-->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--status-bar-->
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span class="status-bar__clock">13:54</span> <!--clock-->
-        </div>
-        <div class="status-bar__column">
-            <i class="fas fa-clock"></i> <!--clock icon-->
-            <i class="fas fa-volume-mute"></i><!--volume-mute icon-->
-            <i class="fas fa-wifi"></i><!--wifi icon-->
-            <span class="status-bar__battery-level">100%</span><!--battery-level-->
-            <i class="fas fa-battery-full"></i><!--batterry-full icon-->
-        </div>
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+        <!--clock-->
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-clock"></i>
+        <!--clock icon-->
+        <i class="fas fa-volume-mute"></i
+        ><!--volume-mute icon-->
+        <i class="fas fa-wifi"></i
+        ><!--wifi icon-->
+        <span class="status-bar__battery-level">100%</span
+        ><!--battery-level-->
+        <i class="fas fa-battery-full"></i
+        ><!--batterry-full icon-->
+      </div>
     </div>
     <!--header-->
     <header class="header">
-        <!--hader title-->
-        <div class="header__header-column">
-            <h1 class="header__title">Friends</h1>
-        </div>
-        <!--header icon-->
-        <div class="header__header-column">
-            <span class="header__icon">
-                <i class="fas fa-search"></i> <!--search icon-->
-            </span>
-            <span class="header__icon">
-                <i class="fas fa-cog"></i> <!--cog icon-->                
-            </span>
-        </div>
+      <!--hader title-->
+      <div class="header__header-column">
+        <h1 class="header__title">Friends</h1>
+      </div>
+      <!--header icon-->
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+          <!--search icon-->
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+          <!--cog icon-->
+        </span>
+      </div>
     </header>
     <!--friends-->
     <main class="friends">
-        <!--friends header-->
-        <header class="friends__header">
-            <div class="friends__friend friend">
-                <div class="friend__column">
-                    <img src="images/muji.png" class="g-avatar friend__avatar">
-                    <div class="friend__content">
-                        <span class="friend__name">
-                            Best Friend
-                        </span>
-                        <span class="friend__status">
-                            Any Development Challenge
-                        </span>
-                    </div>
-                </div>
+      <!--friends header-->
+      <header class="friends__header">
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/muji.png" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Best Friend
+              </span>
+              <span class="friend__status">
+                Any Development Challenge
+              </span>
             </div>
-        </header>
-        <!--friends plus-->
-        <div class="friends__plus">
-            <h5 class="friends__title">Plus friend</h5>
-            <div class="friends__friend friend">
-                <div class="friend__column">
-                    <img src="images/plus.jpg" class="friend__avatar">
-                    <div class="friend__content">
-                        <span class="friend__name">
-                            Plus Friend
-                        </span>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <!--friend list-->
-        <ul class="friends__list">
-            <h5 class="friends__title">Friends 14</h5>
-            <li class="friends__friend friend friend--lg">
-                <div class="friend__column">
-                    <img src="images/nomad.jpg" class="friend__avatar">
-                    <div class="friend__content">
-                        <span class="friend__name">
-                            Nicolás Serrano Arévalo
-                        </span>
-                        <span class="friend__status">
-                            Nomad Coders
-                        </span>
-                    </div>
-                </div>
-                <div class="friend__column">
-                    <div class="friend__now-listening">
-                        <span>
-                            FTISLAND (FT NomadCoders)
-                            <i class="fas fa-play"></i>
-                        </span>
-                    </div>
-                </div>
-            </li>
-        </ul>
+      </header>
+      <!--friends plus-->
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/plus.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Plus Friend
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--friend list-->
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 4</h5>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/nomad.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Nicolás Serrano Arévalo
+              </span>
+              <span class="friend__status">
+                Nomad Coders
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                FTISLAND (FT NomadCoders)
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/parrot.png" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Parrot
+              </span>
+              <span class="friend__status">
+                Mogakco.Busan
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/pengsoo.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Pengsoo
+              </span>
+              <span class="friend__status">
+                EBS Trainee
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                Peng-ha! (Pengsoo Hi means)
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="images/byungjae.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Byungjae Yoo
+              </span>
+              <span class="friend__status">
+                Sandbox
+              </span>
+            </div>
+          </div>
+        </li>
+      </ul>
     </main>
     <!--navigation-->
     <nav class="nav">
-        <!--nav_list-->
-        <ul class="nav__list">
-            <li class="nav__list-item">
-                <a href="friends.html" class="nav__list-link"> <!--friends.html-->
-                    <i class="fas fa-user"></i> <!--user icon-->
-                </a>
-            </li>
-            <li class="nav__list-item">
-                <a href="index.html" class="nav__list-link"> <!--index.html-->
-                    <i class="far fa-comment"></i> <!--comment icon-->
-                </a>
-            </li>
-            <li class="nav__list-item">
-                <a href="find.html" class="nav__list-link"> <!--find.html-->
-                    <i class="fas fa-search"></i> <!--search icon-->
-                </a>
-            </li>
-            <li class="nav__list-item">
-                <a href="more.html" class="nav__list-link"> <!--more.html-->
-                    <i class="fas fa-ellipsis-h"></i> <!--ellipsis icon-->
-                </a>
-            </li>
-        </ul>
+      <!--nav_list-->
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <!--friends.html-->
+            <i class="fas fa-user"></i>
+            <!--user icon-->
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <!--index.html-->
+            <i class="far fa-comment"></i>
+            <!--comment icon-->
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <!--find.html-->
+            <i class="fas fa-search"></i>
+            <!--search icon-->
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <!--more.html-->
+            <i class="fas fa-ellipsis-h"></i>
+            <!--ellipsis icon-->
+          </a>
+        </li>
+      </ul>
     </nav>
     <div class="bigScreen">
-        <span class="bigScreen__text">😱 Please make your screen small or use your mobile device! 😱</span>
+      <span class="bigScreen__text"
+        >😱 Please make your screen small or use your mobile device! 😱</span
+      >
     </div>
-</body>
+  </body>
 </html>
