@@ -4,19 +4,36 @@
 
 (👉[See the Kakao Clone website](https://kimhscom.github.io/kakao-clone-v2/)👈)
 
-> Pages
-
-- Chat
-- Chats
-- Find Friends
-- Friends
-- More
-- Settings
-
 > Technologies
 
 - HTML5
 - CSS3
+
+> Pages
+
+- Chat
+
+    <img width="200" src="https://user-images.githubusercontent.com/47877911/88355829-dfb71300-cda0-11ea-8fbb-d1ffea9761fc.png">
+
+- Chats
+
+    <img width="200" src="https://user-images.githubusercontent.com/47877911/88356071-91eeda80-cda1-11ea-84e6-352e3ec4b4c9.png">
+
+- Find Friends
+
+    <img width="200" src="https://user-images.githubusercontent.com/47877911/88356140-c95d8700-cda1-11ea-8c6d-b9b8300da342.png">
+
+- Friends
+
+    <img width="200" src="https://user-images.githubusercontent.com/47877911/88356185-f9a52580-cda1-11ea-9d11-8baa11170eae.png">
+
+- More
+
+    <img width="200" src="https://user-images.githubusercontent.com/47877911/88356355-7a642180-cda2-11ea-9197-7a03ddcf62f3.png">
+
+- Settings
+
+    <img width="200" src="https://user-images.githubusercontent.com/47877911/88356401-a54e7580-cda2-11ea-8bc4-e8510ebe0ee6.png">
 
 > Features
 
