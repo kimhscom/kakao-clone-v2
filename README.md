@@ -4,12 +4,12 @@
 
 (👉[See the Kakao Clone website](https://kimhscom.github.io/kakao-clone-v2/)👈)
 
-> Technologies
+## Technologies
 
 - HTML5
 - CSS3
 
-> Pages
+## Pages
 
 - Chat
 
@@ -35,7 +35,7 @@
 
   <kbd><img width="200" src="https://user-images.githubusercontent.com/47877911/88356401-a54e7580-cda2-11ea-8bc4-e8510ebe0ee6.png"></kbd>
 
-> Features
+## Features
 
 1. When accessing a web page for the first time, a message appears asking you to reduce the screen when it is 550 px wide or larger, and if it is reduced to less than 550 px, you can see the screen normally.
 
